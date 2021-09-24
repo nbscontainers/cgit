@@ -1,6 +1,6 @@
 FROM docker.io/alpine:3.14
 
-RUN apk add lighttpd cgit && \
+RUN apk add --no-cache lighttpd cgit && \
     echo 'include "cgit.conf"' >> /etc/lighttpd/lighttpd.conf
 
 COPY cgitrc /etc/cgitrc
