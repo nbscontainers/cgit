@@ -1,4 +1,4 @@
-FROM docker.io/alpine:3.14
+FROM docker.io/alpine:latest
 
 RUN apk add --no-cache lighttpd cgit && \
     echo 'include "cgit.conf"' >> /etc/lighttpd/lighttpd.conf
