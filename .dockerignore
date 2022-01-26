@@ -1,3 +1,4 @@
 **
 !/cgitrc
+!/git-http-backend-proxy
 !/lighttpd-cgit.conf
