@@ -1,7 +1,0 @@
-#!/bin/sh
-
-export PATH_INFO="$REQUEST_URI"
-export GIT_PROJECT_ROOT="/repos"
-export GIT_HTTP_EXPORT_ALL=1
-
-exec /usr/libexec/git-core/git-http-backend
